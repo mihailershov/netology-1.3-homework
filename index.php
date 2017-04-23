@@ -116,74 +116,7 @@ function printAnimals($array) {
 <head>
 	<title>1.3-homework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: lightcyan;
-        }
-        .wrapper {
-            max-width: 1420px;
-            margin: auto;
-        }
-        * {
-            padding: 0;
-            margin: 0;
-            line-height:100%;
-            font-family: sans-serif;
-        }
-        h1 {
-            text-align: center;
-            padding: 30px 0;
-            width: 100%;
-        }
-        .block {
-            display: flex;
-            min-height: 200px;
-            justify-content: center;
-            flex-wrap: wrap;
-            border: 1px solid black;
-            background-color: lightgreen;
-        }
-        .margin {
-            margin-top: 60px;
-        }
-        p {
-            padding-left: 20px;
-            line-height: 2rem;
-        }
-
-        .container {
-            min-height: 200px;
-            width: 16.66%;
-            text-align: left;
-            box-sizing: border-box;
-        }
-        @media all and (max-width: 920px) {
-            .container {
-                width: 33.33%;
-            }
-        }
-        @media all and (max-width: 670px) {
-            .container {
-                width: 50%;
-            }
-        }
-        @media all and (max-width: 480px) {
-            .container {
-                width: 100%;
-            }
-        }
-        .container:not(:last-child) {
-            border-right: 1px solid black;
-        }
-        .container h2 {
-            text-align: center;
-            text-transform: uppercase;
-            width: 100%;
-            padding: 15px 0;
-            margin-bottom: 30px;
-            background-color: seagreen;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="wrapper">
